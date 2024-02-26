@@ -3,7 +3,7 @@ This microservice, checkupload.py, incrementally checks the "uploads" folder and
 
 # How to Request & Receive Data from the Check Uploads Microservice
 As this microservice primarily communicates via checkupload.txt, a program must open and read the contents of checkupload.txt to receive outputted data about the "uploads" folder. An example implementation of this is seen in convertrubric.py:
-``
+```
 import os
 import time
 
@@ -34,8 +34,8 @@ def main():
 
 if __name__ == "__main__":
     main()
-``
+```
 In this example, convertrubric.py is opening and reading checkupload.txt every 5 seconds before determining whether rubric conversions on the .csv file can begin.
 
 # UML Sequence Diagram
-<img src="readme/uml.png">
+<img src="/readme/uml.png">

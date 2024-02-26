@@ -38,4 +38,4 @@ if __name__ == "__main__":
 In this example, convertrubric.py is opening and reading checkupload.txt every 5 seconds before determining whether rubric conversions on the .csv file can begin.
 
 # UML Sequence Diagram
-<img src="/readme/uml.png">
+<img src="readme/uml.png">
